@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  echo:
+    container_name: echo
+    build:
+      context: ../
+    command: "echo 'Im overriding the entrypoint with my command !'"

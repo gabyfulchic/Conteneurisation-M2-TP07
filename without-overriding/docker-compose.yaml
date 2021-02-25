@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  date:
+    container_name: date
+    build:
+      context: ../
